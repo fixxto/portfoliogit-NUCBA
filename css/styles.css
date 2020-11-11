@@ -1,0 +1,273 @@
+*{
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+body{
+    background-color: #262b45;
+}
+.navbar{
+    background: rgb(32, 32, 32);
+    width: 100vw;
+    height:50px;
+    background: #b94d67;
+    display: flex;
+}
+.navbar-logo{
+    width:80px;
+}
+
+.navbar-links{
+    list-style: none;
+    background: #b94d67;
+    width: 100vw;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+li a{
+    font-size: 23px;
+    color: white;
+    padding:40px;
+}
+
+
+li a:hover{
+    color: rgb(46, 0, 107);
+}
+
+.section-card-grid{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10%;
+     
+}
+.cuadradoimg1{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.cuadradoimg2{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.cuadradoimg3{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.cuadrado{
+    width:250px;
+    height: 100px;
+    align-self: baseline;
+
+}
+ .grid1img{
+     width:250px;
+     height:200px;
+     border: 5px solid black;
+ }
+ .grid2img{
+     width: 250px;
+     height: 200px;
+     border: 5px solid black
+ }
+ .grid3img{
+    width: 250px;
+    height: 200px;
+    border: 5px solid black 
+}
+
+.titlegrid1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}.titlegrid2{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.titlegrid3{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.cuadrado p{
+    color: white;
+    font-size: 22px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.fondoindex{
+    background-image: url("../assets/fondoindex.jpg");
+    background-size: 100vw;
+}
+.sectionindex{
+    width:100vw;
+    height:100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+
+.divcentradoindex{
+    background: rgba(201, 199, 199, 0.3);
+    width:570px;
+    height:180px;
+    border-radius: 10px;
+    
+}
+.ajrastobiasindex{
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+    color:rgba(175, 234, 252, 0.925);
+
+    
+}
+.disenowebindex{
+    font-size: 50px;
+    text-align: center;
+    color: rgba(175, 234, 252, 0.925);
+}
+.sectiongridaboutme{
+    width:95vw;
+    height:100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: 10px;
+}
+
+.imtobiasaboutme{
+    font-size: 130px;
+    width: 500px;
+    color: rgba(175, 234, 252, 0.925);
+    grid-row: span 2;
+}
+.textaboutme{
+    font-size: 30px;
+    color: white;
+    align-self: end;
+    margin-bottom: 50px;
+}
+.textaboutme2{
+    font-size: 30px;
+    color: white;
+    align-self: baseline;
+}
+.sectioncontact{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 100vh;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    color: rgba(175, 234, 252, 0.925);
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+.labelform{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+form{
+    display: block;
+    align-items: center;
+    width:80vw;
+}
+.formdiv{
+    border-bottom: 1px solid white;
+}
+
+.inputform{
+    height: auto;
+    margin: 0;
+    width: 100%;
+    font-size: 40px;
+    margin:3px;
+    background-color: transparent;
+    border:none;
+    color:white;
+}
+.enviarform{
+    margin-top: 20px;
+    font-size: 34px;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding:2px 10px;
+    color:rgba(175, 234, 252, 0.925);
+}
+
+.enviarform:hover{
+    background: #b94d67;
+    color:#262b45;
+}
+.divskills{
+    width:300px;
+    height:300px;
+}
+.imglogoskills-1{
+    height:200px;
+}
+.imglogoskills-2{
+    height:200px;
+}
+.imglogoskills-3{
+    height:200px;
+}
+.sectionskills{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.h2skills{
+    font-size: 100px;
+    color:rgba(175, 234, 252, 0.925);
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.skillsp{
+    font-size: 30px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    background: rgba(201, 199, 199, 0.1);
+}
+
+footer{
+    background: #b94d67;
+    width: 100vw;
+    height: 25px;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
